@@ -2868,7 +2868,7 @@
 		}
 
 		.wrapper.style3 {
-			background-color: #505393;
+			background-color: #ffffff; /* original: 505393 */
 			color: #d3d4e4;
 		}
 
@@ -3641,6 +3641,7 @@
 
 /* CTA */
 
+	
 	#cta .inner {
 		display: -moz-flex;
 		display: -webkit-flex;
@@ -3865,7 +3866,7 @@
 	}
 
 	body.landing #footer {
-		background-color: rgba(29, 36, 42, 0.9);
+		background-color: #ffffff; /* original line: background-color: rgba(29, 36, 42, 0.9); */
 	}
 
 	body.is-mobile.landing #page-wrapper {
