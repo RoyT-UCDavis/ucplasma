@@ -1245,9 +1245,9 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #fff;
+  color: #080808;
   font-weight: 800;
-  letter-spacing: 0.225em;
+  letter-spacing: 0.2em;
   line-height: 1em;
   margin: 0 0 1em 0;
   text-transform: uppercase;
@@ -3382,8 +3382,14 @@ h2 {
   letter-spacing: .1em;
 }
 
+h3 {
+  font-size: 1.5em;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+
 p {
-  color: #808080;
+  color: #737373;
 }
 
 /* parallex */
