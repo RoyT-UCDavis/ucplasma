@@ -3378,6 +3378,12 @@ body {
   color: #737373;
 }
 
+#welcome-text {
+  font-size: 4em;
+  color: white;
+  margin-bottom: 1em;
+}
+
 .sec-title {
   font-size: 2em;
   font-weight: 900;
