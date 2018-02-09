@@ -1,6 +1,6 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
-@import url('https://fonts.googleapis.com/css?family=Rubik');
+@import url('https://fonts.googleapis.com/css?family=Lato');
 /*
 	Spectral by HTML5 UP
 	html5up.net | @ajlkn
@@ -18,7 +18,7 @@ p {
   height: 1px;
   width: 80%;
   background-image: linear-gradient(to left, #f0f0f0, #8c8c8c, #f0f0f0);
-  margin: 50px;
+  margin: 2em;
 }
 
 /* Reset */
@@ -1245,11 +1245,10 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #080808;
-  font-weight: 800;
-  letter-spacing: 0.2em;
+  color: #737373;
+  letter-spacing: 0.1em;
   line-height: 1em;
-  margin: 0 0 1em 0;
+  /*margin: 0 0 1em 0;*/
   text-transform: uppercase;
 }
 
@@ -2436,9 +2435,11 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
   color: #ffffff;
 }
 
+/*
 .wrapper.style3 h2, .wrapper.style3 h3, .wrapper.style3 h4, .wrapper.style3 h5, .wrapper.style3 h6 {
   color: #ffffff;
 }
+*/
 
 .wrapper.style3 hr {
   border-color: rgba(0, 0, 0, 0.125);
@@ -3011,10 +3012,12 @@ body.is-menu-visible #menu {
   right: 0;
 }
 
+/*
 #banner p {
   letter-spacing: 0.225em;
   text-transform: uppercase;
 }
+*/
 
 #banner p a {
   color: inherit;
@@ -3368,31 +3371,32 @@ body.is-mobile.landing #footer {
 /* Peiyi updated mission + events 02/08/18 **/
 
 body {
-  font-family: 'Rubik', 'Helvetica', sans-serif;
+  font-family: 'Lato', 'Helvetica', sans-serif;
   font-size: 14px;
   font-weight: light;
   line-height: 1.5em;
   color: #737373;
 }
 
-h2 {
+.sec-title {
   font-size: 2em;
-  font-weight: bold;
-  margin-top: 50px;
-  letter-spacing: .1em;
+  font-weight: 900;
+  color: #737373;
 }
 
-h3 {
+.event-name {
   font-size: 1.5em;
   font-weight: bold;
-  letter-spacing: 0.1em;
+  color: #737373;
+  padding-bottom
 }
 
 p {
   color: #737373;
+  letter-spacing: 0em;
 }
 
-/* parallex */
+/* impliment parallex */
 
 #img-events {
   margin-top: 30px;
