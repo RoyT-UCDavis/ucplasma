@@ -1,5 +1,5 @@
 @import url(font-awesome.min.css);
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
+@import url("https://fonts.googleapis.com/css?family=Lato:400,400italic,600,600italic,800,800italic");
 
 /*
 	Spectral by HTML5 UP
@@ -326,7 +326,7 @@ p{
 	.\-1u {
 		margin-left: 8.33333%;
 	}
-	
+
 
 	@media screen and (max-width: 1680px) {
 
@@ -334,7 +334,7 @@ p{
 			width: 60%;
 			height: 100px;
 		}
-		
+
 		.row > * {
 			padding: 0 0 0 1.5em;
 		}
@@ -989,8 +989,8 @@ p{
 	@media screen and (max-width: 736px) {
 
 		#cta{
-			background-image: url('assets/photos/orb2.jpg'); 
-			/*background-position: center; 
+			background-image: url('assets/photos/orb2.jpg');
+			/*background-position: center;
 			-webkit-background-size: cover;
   			-moz-background-size: cover;
 			-o-background-size: cover;
@@ -998,8 +998,8 @@ p{
 		}
 
 		#banner{
-			background-image: url('assets/photos/orb.png'); 
-			/*background-position: center; 
+			background-image: url('assets/photos/orb.png');
+			/*background-position: center;
 			-webkit-background-size: cover;
   			-moz-background-size: cover;
 			-o-background-size: cover;
@@ -1226,8 +1226,8 @@ p{
 	@media screen and (max-width: 480px) {
 
 		#cta{
-			background-image: url('assets/photos/orb2.jpg'); 
-			/*background-position: center; 
+			background-image: url('assets/photos/orb2.jpg');
+			/*background-position: center;
 			-webkit-background-size: cover;
   			-moz-background-size: cover;
 			-o-background-size: cover;
@@ -1235,8 +1235,8 @@ p{
 		}
 
 		#banner{
-			background-image: url('assets/photos/orb.png'); 
-			/*background-position: center; 
+			background-image: url('assets/photos/orb.png');
+			/*background-position: center;
 			-webkit-background-size: cover;
   			-moz-background-size: cover;
 			-o-background-size: cover;
@@ -1261,7 +1261,7 @@ p{
 
 		.row.uniform {
 			margin: -1.5em 0 -1px -1.5em;
-			
+
 		}
 
 		.row.\32 00\25 > * {
@@ -1469,13 +1469,13 @@ p{
 		img.ccs{
 			height: 15px;
 			width: 100%;
-			
+
 		}
 
 
 	}
 
-	
+
 
 /* Basic */
 
@@ -1500,7 +1500,7 @@ p{
 
 	body, input, select, textarea {
 		color: #fff;
-		font-family: "Open Sans", Helvetica, sans-serif;
+		font-family: "Lato", Helvetica, sans-serif;
 		font-size: 15pt;
 		font-weight: 400;
 		letter-spacing: 0.075em;
@@ -1733,7 +1733,7 @@ p{
 
 		}
 
-	
+
 
 /* Form */
 
@@ -3607,7 +3607,7 @@ p{
 				height: auto;
 				min-height: 0;
 			}
-				
+
 
 				#banner br {
 					display: none;
@@ -3619,8 +3619,8 @@ p{
 
 				#pho{
 					diplay:block;
-				} 
-				
+				}
+
 				#ccs{
 					height: 80px;
 					width: 500px;
@@ -3654,7 +3654,7 @@ p{
 
 /* CTA */
 
-	
+
 	#cta .inner {
 		display: -moz-flex;
 		display: -webkit-flex;
