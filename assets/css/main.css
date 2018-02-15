@@ -3905,3 +3905,25 @@ p{
 	}
 
 	/* Gallery */
+
+	/* parallax */
+
+
+	.slide:nth-child(2n) .title {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.slide:nth-child(2n+1) .title {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.slide, .slide:before {
+  background: 50% 50% / cover;
+}
+
+#slide1:before {
+  background-image: url("assets/photos/mission.jpg");
+  transform: translateZ(-1px) scale(2);
+}
