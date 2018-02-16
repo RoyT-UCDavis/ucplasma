@@ -3924,6 +3924,6 @@ p{
 }
 
 #slide1:before {
-  background-image: url("assets/photos/mission.jpg");
+  background-image: url("https://lorempixel.com/640/480/abstract/4/");
   transform: translateZ(-1px) scale(2);
 }
