@@ -4,6 +4,7 @@
 
 @import url("https://fonts.googleapis.com/css?family=Lato:400,400italic,600,600italic,800,800italic");
 @import url("https://fonts.googleapis.com/css?family=Rubik");
+
 /*
 	Spectral by HTML5 UP
 	html5up.net | @ajlkn
@@ -39,14 +40,20 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-html,body {
+/*html, body {
   line-height: 1;
   overflow-x: hidden;
   margin: 0px;
   height: 100%;
   width: 100%;
   padding: 0px;
+}*/
+
+
+body {
+	line-height: 1;
 }
+
 
 ol, ul {
   list-style: none;
@@ -3422,7 +3429,7 @@ body {
 
 .column {
   float: left;
-  width: 31%;
+  width: 33%;
 }
 
 .row:after {
@@ -3450,9 +3457,9 @@ p {
   }
 }
 
+
 * {box-sizing:border-box}
 
-/* Slideshow container */
 .slideshow-container {
   max-width: 100%;
   width: 50%;
@@ -3460,7 +3467,6 @@ p {
   margin: auto;
 }
 
-/* Hide the images by default */
 .mySlides {
 	display: none;
 }
@@ -3471,7 +3477,6 @@ p {
 }
 
 
-/* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -3486,18 +3491,15 @@ p {
   border-radius: 0 3px 3px 0;
 }
 
-/* Position the "next button" to the right */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
 
-/* Caption text */
 .text {
   color: #f2f2f2;
   font-size: 15px;
@@ -3508,7 +3510,6 @@ p {
   text-align: center;
 }
 
-/* Number text (1/3 etc) */
 .numbertext {
   color: #f2f2f2;
   font-size: 12px;
@@ -3517,7 +3518,6 @@ p {
   top: 0;
 }
 
-/* The dots/bullets/indicators */
 .dot {
   cursor:pointer;
   height: 15px;
@@ -3533,7 +3533,6 @@ p {
   background-color: #717171;
 }
 
-/* Fading animation */
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
