@@ -2453,7 +2453,7 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
   color: #ffffff;
 }
 
-.wrapper.style3 h2, .wrapper.style3 h3, .wrapper.style3 h4, .wrapper.style3 h5, .wrapper.style3 h6 {
+.wrapper.style3 h3, .wrapper.style3 h4, .wrapper.style3 h5, .wrapper.style3 h6 {
   color: #ffffff;
 }
 
@@ -3548,4 +3548,14 @@ p {
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+/* Peiyi Visual Edits 3/1 */
+
+#mentors{
+  background-color: #f2f2f2;
+}
+
+h2{
+  color: #333333;
 }
