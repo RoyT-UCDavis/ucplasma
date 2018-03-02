@@ -3293,7 +3293,7 @@ body.is-mobile #main>header {
 
 #footer .icons a {
   /* color: rgba(255, 255, 255, 0.5); */
-  color: black;
+  color: white;
 }
 
 #footer .icons a:hover {
@@ -3368,7 +3368,7 @@ body.landing #page-wrapper {
 }
 
 body.landing #footer {
-  background-color: #ffffff;
+  background-color: ##1d242a;
   /* original line: background-color: rgba(29, 36, 42, 0.9); */
 }
 
@@ -3583,4 +3583,8 @@ p{
 
 #who #wrapper{
   padding: 0 0 4em 0;
+}
+
+#footer h2{
+  color: white;
 }
