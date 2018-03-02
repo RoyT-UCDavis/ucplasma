@@ -1206,7 +1206,7 @@ body.is-loading *, body.is-loading *:before, body.is-loading *:after {
 
 body, input, select, textarea {
   color: #fff;
-  font-family: "Open Sans", Helvetica, sans-serif;
+  font-family: "Lato", Helvetica, sans-serif;
   font-size: 15pt;
   font-weight: 200;
   letter-spacing: 0.075em;
