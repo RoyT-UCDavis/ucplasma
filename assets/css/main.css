@@ -1403,17 +1403,19 @@ header.major {
   margin: 0 0 3.5em 0;
 }
 
+/*
 header.major h2, header.major h3, header.major h4, header.major h5, header.major h6 {
   border-bottom: solid 2px #fff;
   display: inline-block;
   padding-bottom: 1em;
   position: relative;
 }
+*/
 
 header.major h2:after, header.major h3:after, header.major h4:after, header.major h5:after, header.major h6:after {
   content: '';
   display: block;
-  height: 1px;
+  /*height: 1px;*/
 }
 
 /*
@@ -2284,7 +2286,7 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 /* Wrapper */
 
 .wrapper {
-  padding: 6em 0 4em 0;
+  padding: 4em 0 2em 0;
 }
 
 .wrapper>.inner {
@@ -3421,11 +3423,11 @@ div.absolute {
   /*background-image: url("../photos/what.png");*/
   /* Full height */
   /* Create the parallax scrolling effect */
-  background-attachment: fixed;
+  /*background-attachment: fixed;*/
   background-position: left;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 300px;
+  height: 400px;
   width: 100%;
   margin: 0px;
 }
@@ -3573,4 +3575,12 @@ p{
 #team h3{
   border-color: none;
   border bottom:
+}
+
+#who p{
+  margin: 0;
+}
+
+#who #wrapper{
+  padding: 0 0 4em 0;
 }
