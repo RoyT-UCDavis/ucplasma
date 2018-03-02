@@ -14,7 +14,7 @@
 /* new divider by Peiyi 2/3/18 */
 
 p {
-  color: #808080;
+  color: ##606060;
 }
 
 .divider {
@@ -2446,16 +2446,18 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 .wrapper.style3 {
   background-color: #ffffff;
   /* original: 505393 */
-  color: #d3d4e4;
+  /*color: #d3d4e4;*/
 }
 
 .wrapper.style3 strong, .wrapper.style3 b {
   color: #ffffff;
 }
 
+/*
 .wrapper.style3 h3, .wrapper.style3 h4, .wrapper.style3 h5, .wrapper.style3 h6 {
   color: #ffffff;
 }
+*/
 
 .wrapper.style3 hr {
   border-color: rgba(0, 0, 0, 0.125);
@@ -3447,9 +3449,6 @@ h3 {
   padding-bottom: 10px;
 }
 
-p {
-  font-size: 0.9em;
-}
 
 @media (max-width: 600px) {
   .column {
@@ -3556,6 +3555,10 @@ p {
   background-color: #f2f2f2;
 }
 
-h2{
+h2, h3{
   color: #333333;
+}
+
+p{
+  color: #606060;
 }
