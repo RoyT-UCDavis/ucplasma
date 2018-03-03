@@ -3406,7 +3406,7 @@ div.absolute {
 
 .missionParallax {
   /* The image used */
-  background-image: url("../photos/mission.jpg");
+  background-image: url("../photos/missionCompressed.jpg");
   /* Full height */
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -3598,7 +3598,7 @@ p{
   line-height: 100%;
   letter-spacing: -20px;
   height: 1px;
-  margin-top: 50px;
+  margin-top: 0px;
   margin-bottom: 75px;
   min-height: 5px
 
@@ -3611,7 +3611,7 @@ p{
   position: relative;
   display: inline-block;
   width: auto;
-  margin-top:10px;
+  margin-top: 0px;
   margin-left:30px;
   margin-right: 30px;
   white-space: nowrap;
