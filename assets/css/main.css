@@ -3286,7 +3286,7 @@ body.is-mobile #main>header {
 /* Footer */
 
 #footer {
-  padding: 6em 0 4em 0;
+  padding: 4em 0 4em 0;
   background-color: #1d242a;
   text-align: center;
 }
@@ -3623,4 +3623,12 @@ p{
 
 #three hr{
   margin: 0 0 2em 0;
+}
+
+footer h2{
+  margin: 0 0 1em 0;
+}
+
+footer ul{
+  margin: 0;
 }
