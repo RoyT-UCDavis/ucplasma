@@ -3620,3 +3620,7 @@ p{
   margin-right: 30px;
   white-space: nowrap;
 }
+
+#three hr{
+  margin: 0 0 2em 0;
+}
