@@ -3616,7 +3616,8 @@ p{
   display: inline-block;
   width: auto;
   margin-top: 0px;
-  margin-left:30px;
+  margin-bottom: 50px;
+  margin-left: 30px;
   margin-right: 30px;
   white-space: nowrap;
 }
