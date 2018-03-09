@@ -1258,7 +1258,7 @@ em, i {
 */
 
 p {
-  margin: 0 0 2em 0;
+  margin: 0 0 0 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -2286,12 +2286,16 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 /* Wrapper */
 
 .wrapper {
-  padding: 4em 0 2em 0;
+  padding: 2em 0 2em 0;
 }
 
 .wrapper>.inner {
   width: 60em;
   margin: 0 auto;
+}
+
+#mission h2{
+  padding: 1em 0 0 0;
 }
 
 @media screen and (max-width: 1280px) {
@@ -3282,7 +3286,7 @@ body.is-mobile #main>header {
 /* Footer */
 
 #footer {
-  padding: 6em 0 4em 0;
+  padding: 4em 0 4em 0;
   background-color: #1d242a;
   text-align: center;
 }
@@ -3578,7 +3582,7 @@ p{
 }
 
 #who p{
-  margin: 0;
+  margin: 1.5em 0 0 0;
 }
 
 #who #wrapper{
@@ -3602,7 +3606,7 @@ p{
   margin-bottom: 75px;
   min-height: 5px
 
-  
+
 }
 .units{
   color: white;
@@ -3615,4 +3619,16 @@ p{
   margin-left:30px;
   margin-right: 30px;
   white-space: nowrap;
+}
+
+#three hr{
+  margin: 0 0 2em 0;
+}
+
+footer h2{
+  margin: 0 0 1em 0;
+}
+
+footer ul{
+  margin: 0;
 }
